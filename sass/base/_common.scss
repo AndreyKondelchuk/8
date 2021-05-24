@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  font-family: roboto, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.section {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.link:hover,
+.info:hover,
+.phone:hover,
+.push:hover {
+  color: blue;
+}
+
+.link {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 12px;
+
+  position: center;
+}
