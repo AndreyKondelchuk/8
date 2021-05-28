@@ -29,3 +29,9 @@
   flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
 }
+
+.section__work {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}

@@ -4,34 +4,115 @@
     {
       "icon": {
         "paths": [
-          "M1024 0l-1024 576 327.251 121.203 504.749-473.202-383.927 517.955 0.311 0.115-0.384-0.115v282.048l183.522-214.106 232.482 86.106 159.996-896.004z"
+          "M759.468 329.728l-48.128-48.128-190.807 190.804-190.804-190.804-48.128 48.128 190.804 190.804-190.804 190.807 48.128 48.128 190.804-190.807 190.807 190.807 48.128-48.128-190.807-190.807 190.807-190.804z"
         ],
         "attrs": [
-          {
-            "fill": "rgb(255, 255, 255)"
-          }
+          {}
         ],
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "icon-send1"
+          "close_40px"
         ]
       },
       "attrs": [
-        {
-          "fill": "rgb(255, 255, 255)"
-        }
+        {}
       ],
       "properties": {
-        "order": 61,
+        "order": 74,
         "id": 1,
-        "name": "icon-send1",
+        "name": "close_40px",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 11,
+      "setId": 13,
       "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M204.8 375.468v-68.268h614.4v68.268h-614.4zM204.8 546.132h614.4v-68.265h-614.4v68.265zM204.8 716.8h614.4v-68.268h-614.4v68.268z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "menu_40px"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 75,
+        "id": 0,
+        "name": "menu_40px",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 13,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1006.037 101.322l-101.322-101.322-401.697 401.696-401.695-401.696-101.322 101.322 401.696 401.695-401.696 401.697 101.322 101.322 401.695-401.699 401.697 401.699 101.322-101.322-401.699-401.697 401.699-401.695z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "close_24px"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 72,
+        "id": 1,
+        "name": "close_24px",
+        "prevSize": 32
+      },
+      "setIdx": 1,
+      "setId": 12,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M0 170.667v-170.667h1536v170.667h-1536zM0 597.333h1536v-170.666h-1536v170.666zM0 1024h1536v-170.669h-1536v170.669z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 1536,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "menu_24px"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 73,
+        "id": 0,
+        "name": "menu_24px",
+        "prevSize": 32
+      },
+      "setIdx": 1,
+      "setId": 12,
+      "iconIdx": 1
     },
     {
       "icon": {
@@ -51,7 +132,7 @@
         "name": "send-tg",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 2,
       "setId": 11,
       "iconIdx": 1
     },
@@ -62,8 +143,6 @@
         ],
         "attrs": [
           {
-            "fill": "rgb(255, 255, 255)",
-            "stroke": "rgb(255, 255, 255)",
             "strokeLinejoin": "miter",
             "strokeLinecap": "butt",
             "strokeMiterlimit": "4",
@@ -71,17 +150,13 @@
           }
         ],
         "width": 1092,
-        "isMulticolor": false,
-        "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "icon-check"
+          "check2"
         ]
       },
       "attrs": [
         {
-          "fill": "rgb(255, 255, 255)",
-          "stroke": "rgb(255, 255, 255)",
           "strokeLinejoin": "miter",
           "strokeLinecap": "butt",
           "strokeMiterlimit": "4",
@@ -89,14 +164,51 @@
         }
       ],
       "properties": {
-        "order": 63,
+        "order": 69,
+        "id": 2,
+        "name": "check2",
+        "prevSize": 32
+      },
+      "setIdx": 3,
+      "setId": 10,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M270.133 529.18l-4.695-4.48-70.546 66.825 248.551 237.109 522.183-498.145-70.083-66.856-452.098 430.877-173.311-165.331z"
+        ],
+        "attrs": [
+          {
+            "strokeLinejoin": "miter",
+            "strokeLinecap": "butt",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 13.653333333333334
+          }
+        ],
+        "width": 1092,
+        "grid": 0,
+        "tags": [
+          "icon-check"
+        ]
+      },
+      "attrs": [
+        {
+          "strokeLinejoin": "miter",
+          "strokeLinecap": "butt",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 13.653333333333334
+        }
+      ],
+      "properties": {
+        "order": 70,
         "id": 1,
         "name": "icon-check",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 3,
       "setId": 10,
-      "iconIdx": 0
+      "iconIdx": 1
     },
     {
       "icon": {
@@ -112,14 +224,14 @@
       },
       "attrs": [],
       "properties": {
-        "order": 55,
+        "order": 71,
         "id": 0,
         "name": "check",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 3,
       "setId": 10,
-      "iconIdx": 1
+      "iconIdx": 2
     },
     {
       "icon": {
@@ -140,7 +252,7 @@
         "name": "email-black",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 4,
       "setId": 9,
       "iconIdx": 0
     },
@@ -162,7 +274,7 @@
         "name": "name",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 4,
       "setId": 9,
       "iconIdx": 1
     },
@@ -184,7 +296,7 @@
         "name": "telephone",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 4,
       "setId": 9,
       "iconIdx": 2
     },
@@ -206,7 +318,7 @@
         "name": "close-black",
         "prevSize": 32
       },
-      "setIdx": 4,
+      "setIdx": 6,
       "setId": 6,
       "iconIdx": 0
     },
@@ -231,7 +343,7 @@
         "name": "logo1",
         "prevSize": 32
       },
-      "setIdx": 6,
+      "setIdx": 8,
       "setId": 4,
       "iconIdx": 0
     },
@@ -273,7 +385,7 @@
         "name": "logo2",
         "prevSize": 32
       },
-      "setIdx": 6,
+      "setIdx": 8,
       "setId": 4,
       "iconIdx": 1
     },
@@ -308,7 +420,7 @@
         "name": "logo3",
         "prevSize": 32
       },
-      "setIdx": 6,
+      "setIdx": 8,
       "setId": 4,
       "iconIdx": 2
     },
@@ -334,7 +446,7 @@
         "name": "logo4",
         "prevSize": 32
       },
-      "setIdx": 6,
+      "setIdx": 8,
       "setId": 4,
       "iconIdx": 3
     },
@@ -366,7 +478,7 @@
         "name": "logo5",
         "prevSize": 32
       },
-      "setIdx": 6,
+      "setIdx": 8,
       "setId": 4,
       "iconIdx": 4
     },
@@ -406,7 +518,7 @@
         "name": "logo6",
         "prevSize": 32
       },
-      "setIdx": 6,
+      "setIdx": 8,
       "setId": 4,
       "iconIdx": 5
     },
@@ -466,7 +578,7 @@
         "name": "antena",
         "prevSize": 32
       },
-      "setIdx": 7,
+      "setIdx": 9,
       "setId": 3,
       "iconIdx": 0
     },
@@ -716,7 +828,7 @@
         "name": "astronaut",
         "prevSize": 32
       },
-      "setIdx": 7,
+      "setIdx": 9,
       "setId": 3,
       "iconIdx": 1
     },
@@ -796,7 +908,7 @@
         "name": "clock",
         "prevSize": 32
       },
-      "setIdx": 7,
+      "setIdx": 9,
       "setId": 3,
       "iconIdx": 2
     },
@@ -886,7 +998,7 @@
         "name": "diagram",
         "prevSize": 32
       },
-      "setIdx": 7,
+      "setIdx": 9,
       "setId": 3,
       "iconIdx": 3
     },
@@ -910,7 +1022,7 @@
         "name": "Client1",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 0
     },
@@ -951,7 +1063,7 @@
         "name": "Client2",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 1
     },
@@ -985,7 +1097,7 @@
         "name": "Client3",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 2
     },
@@ -1010,7 +1122,7 @@
         "name": "Client4",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 3
     },
@@ -1041,7 +1153,7 @@
         "name": "Client5",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 4
     },
@@ -1080,7 +1192,7 @@
         "name": "Client6",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 5
     },
@@ -1102,7 +1214,7 @@
         "name": "envelope",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 6
     },
@@ -1124,7 +1236,7 @@
         "name": "facebook1",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 7
     },
@@ -1146,7 +1258,7 @@
         "name": "facebook2",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 8
     },
@@ -1170,7 +1282,7 @@
         "name": "instagram1",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 9
     },
@@ -1194,7 +1306,7 @@
         "name": "instagram2",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 10
     },
@@ -1218,7 +1330,7 @@
         "name": "linkedin1",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 11
     },
@@ -1242,7 +1354,7 @@
         "name": "linkedin2",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 12
     },
@@ -1264,7 +1376,7 @@
         "name": "phone1",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 13
     },
@@ -1286,7 +1398,7 @@
         "name": "twitter1",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 14
     },
@@ -1308,7 +1420,7 @@
         "name": "twitter2",
         "prevSize": 32
       },
-      "setIdx": 8,
+      "setIdx": 10,
       "setId": 2,
       "iconIdx": 15
     }

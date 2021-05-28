@@ -15,6 +15,14 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-menu_24px {
+  width: 1.5em;
+}
+
+.icon-check2 {
+  width: 1.06640625em;
+}
+
 .icon-icon-check {
   width: 1.06640625em;
 }

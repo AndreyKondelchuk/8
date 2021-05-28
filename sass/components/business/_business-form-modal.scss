@@ -11,11 +11,34 @@
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../css/img-css/header-Img.jpg);
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
+  @media screen and (max-width: 767px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/header_mobile.jpg");
+  }
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/header_tablet.jpg");
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/header_desktop.jpg");
+  }
 }
 .business__title {
   margin-top: 0px;
@@ -28,6 +51,11 @@
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 26px;
+    line-height: 1.6;
+  }
 }
 .business__button {
   display: inline-block;

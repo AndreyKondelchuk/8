@@ -17,39 +17,71 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container nav">
         <a class="logo" href=""><span class="logo__text">Web</span>Studio</a>
-        <nav class="navigation">
-          <ul class="site-navigation">
-            <li><a href="" class="link-current navigation__link">Студия</a></li>
-            <li>
-              <a href="./portfolio.html" class="link navigation__link"
-                >Портфолио</a
-              >
-            </li>
-            <li><a href="" class="link navigation__link">Контакты</a></li>
-          </ul>
-        </nav>
-
-        <ul class="contacts-navigation">
-          <li class="contacts__item">
-            <a class="contacts__link" href="mail:info@devstudio.com">
-              <svg class="contacts__icon" width="16" height="12">
-                <use href="./img/icomoon/sprite.svg#icon-envelope"></use>
-              </svg>
-              info@devstudio.com
-            </a>
-          </li>
-          <li class="contacts__item">
-            <a class="phone" href="tel:+380961111111">
-              <svg class="contacts__icon" width="16" height="16">
-                <use href="./img/icomoon/sprite.svg#icon-phone1"></use>
-              </svg>
-              +380961111111
-            </a>
-          </li>
-        </ul>
+        <button
+          type="button"
+          class="mobile__button is-open"
+          aria-expended="false"
+          data-menu-button
+        >
+          <svg
+            width="40"
+            height="40"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use
+              class="mobile__open"
+              href="./img/icomoon/sprite.svg#icon-menu_40px"
+            ></use>
+            <use
+              class="mobile__close"
+              href="./img/icomoon/sprite.svg#icon-close_40px"
+            ></use>
+          </svg>
+        </button>
+        <div class="mobile-menu" id="mobile-menu" data-menu>
+          <div>
+            <nav class="navigation">
+              <ul class="site-navigation">
+                <li>
+                  <a href="./index.html" class="link-current navigation__link"
+                    >Студия</a
+                  >
+                </li>
+                <li>
+                  <a href="./portfolio.html" class="link navigation__link"
+                    >Портфолио</a
+                  >
+                </li>
+                <li><a href="" class="link navigation__link">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <div class="contacts">
+              <ul class="contacts-navigation">
+                <li class="contacts__item">
+                  <a class="contacts__link" href="mail:info@devstudio.com">
+                    <svg class="contacts__icon" width="16" height="12">
+                      <use href="./img/icomoon/sprite.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a class="phone" href="tel:+380961111111">
+                    <svg class="contacts__icon" width="16" height="16">
+                      <use href="./img/icomoon/sprite.svg#icon-phone1"></use>
+                    </svg>
+                    +380961111111
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <!--Основная секция-->
@@ -71,7 +103,7 @@
           <h2 class="visually-hidden">Особенности</h2>
           <ul class="features">
             <li class="features__item">
-              <div>
+              <div class="fetures__box">
                 <svg class="features__icon" width="270" height="120">
                   <use href="./img/icomoon/sprite.svg#icon-antena"></use>
                 </svg>
@@ -83,7 +115,7 @@
               </p>
             </li>
             <li class="features__item">
-              <div>
+              <div class="fetures__box">
                 <svg class="features__icon" width="270" height="120">
                   <use href="./img/icomoon/sprite.svg#icon-clock"></use>
                 </svg>
@@ -95,7 +127,7 @@
               </p>
             </li>
             <li class="features__item">
-              <div>
+              <div class="fetures__box">
                 <svg class="features__icon" width="270" height="120">
                   <use href="./img/icomoon/sprite.svg#icon-diagram"></use>
                 </svg>
@@ -107,7 +139,7 @@
               </p>
             </li>
             <li class="features__item">
-              <div>
+              <div class="fetures__box">
                 <svg class="features__icon" width="270" height="120">
                   <use href="./img/icomoon/sprite.svg#icon-astronaut"></use>
                 </svg>
@@ -122,7 +154,7 @@
         </div>
       </section>
       <!--Чем мы занимаемся-->
-      <section class="section">
+      <section class="section section__work">
         <div class="container">
           <h2 class="section__title">Чем мы занимаемся</h2>
           <ul class="section__image">
@@ -548,5 +580,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
